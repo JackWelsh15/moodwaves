@@ -9,11 +9,11 @@ User will access the website and will land on the home page (index.html) they wi
 - Framework vue.js, bulma.io
 
 ### To-Do List :pencil2:
-- [] Create Login/Logout
-- [] Add Session
-- [] Display Home page with XML Playlist displayed
-- [] Add 'My Playlist' Page
-- [] Allow playlist configuration from 'My Playlist'
+- [ ] Create Login/Logout
+- [ ] Add Session
+- [ ] Display Home page with XML Playlist displayed
+- [ ] Add 'My Playlist' Page
+- [ ] Allow playlist configuration from 'My Playlist'
 
 ### Additional Documentation
 - [Scenario/Mark Scheme](https://learn-eu-central-1-prod-fleet01-xythos.s3-eu-central-1.amazonaws.com/5b6bce0407d12/8987962?response-content-disposition=inline%3B%20filename%2A%3DUTF-8%27%27KF6034_CM0667_2018-19_assignment2%25281%2529.pdf&response-content-type=application%2Fpdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20190408T132018Z&X-Amz-SignedHeaders=host&X-Amz-Expires=21600&X-Amz-Credential=AKIAIZ3QX2YUHH4EOO3A%2F20190408%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Signature=622322d1c1a68d4d92f68e603f0b1bbd769cc896c374fabfcd273fb35de5c749).
