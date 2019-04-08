@@ -1,0 +1,44 @@
+html, body {
+  font-family: 'Open Sans', serif;
+}
+.hero.is-info {
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ), url('headphones.jpg')no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.hero .nav, .hero.is-success .nav {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.hero .subtitle {
+  padding: 5rem 0;
+  line-height: 1.5;
+}
+
+.box {
+  background-color: transparent;
+}
+
+#saved_songs {
+  background-color: #7D7D7D !important;
+}
+
+.footer {
+  padding: 1rem 1rem 1rem;
+  background-color: #7D7D7D;
+  opacity: 0.9
+}
+.footer>p{
+  colour: white;
+}
+
+.subtitle {
+  padding-bottom: -40px;
+}
+/* https://source.unsplash.com/collection/935527 */
+/* https://unsplash.it/1200/900?random */

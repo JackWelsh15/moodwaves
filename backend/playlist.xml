@@ -5,119 +5,123 @@
       Share music playlists - import from other applications and export them
     </description>
     <language>en-us</language>
-    <item>
-      <songid>US2HK1448715</songid>
-      <songtitle>Take Me To The River</songtitle>
-      <artist>Al Green</artist>
-      <genre>Soul</genre>
-      <link>
-        https://www.amazon.com/Take-Me-to-the-River/dp/B01MSN0NGL
-      </link>
-      <releaseyear>1974</releaseyear>
-    </item>
-    <item>
-      <songid>GBAAM8300001</songid>
-      <songtitle>Every Breath You Take</songtitle>
-      <artist>The Police</artist>
-      <genre>Pop/Rock</genre>
-      <link>
-        https://www.amazon.com/Every-Breath-You-Take-Police/dp/B000008JI6
-      </link>
-      <releaseyear>1983</releaseyear>
-    </item>
-    <item>
-      <songid>GBBBN7902002</songid>
-      <songtitle>London Calling</songtitle>
-      <artist>The Clash</artist>
-      <genre>Post-punk</genre>
-      <link>
-        https://www.amazon.com/London-Calling-Remastered/dp/B00EQRJNTM
-      </link>
-      <releaseyear>1979</releaseyear>
-    </item>
-    <item>
-      <songid>USUM71413733</songid>
-      <songtitle>Hold Back the River</songtitle>
-      <artist>James Bay</artist>
-      <genre>Indie rock</genre>
-      <link>
-        https://www.amazon.com/Hold-Back-The-River/dp/B00QN2CL9C
-      </link>
-      <releaseyear>2014</releaseyear>
-    </item>
-    <item>
-      <songid>USQX91300809</songid>
-      <songtitle>Get Lucky</songtitle>
-      <artist>Daft Punk featuring Pharrell Williams</artist>
-      <genre>Disco</genre>
-      <link>https://www.amazon.com/Get-Lucky/dp/B00CRMX53S</link>
-      <releaseyear>2012</releaseyear>
-    </item>
-    <item>
-      <songid>GBF089190013</songid>
-      <songtitle>Enter Sandman</songtitle>
-      <artist>Metallica</artist>
-      <genre>Metal</genre>
-      <link>
-        https://www.amazon.com/Enter-Sandman-Metallica/dp/B00000E0TE
-      </link>
-      <releaseyear>1991</releaseyear>
-    </item>
-    <item>
-      <songid>DETT11504159</songid>
-      <songtitle>Times Like These</songtitle>
-      <artist>Foo Fighters</artist>
-      <genre>Rock</genre>
-      <link>
-        https://www.amazon.com/Times-Like-These/dp/B002V5FVJ2
-      </link>
-      <releaseyear>2003</releaseyear>
-    </item>
-    <item>
-      <songid>USRH10903932</songid>
-      <songtitle>Night Fever</songtitle>
-      <artist>Bee Gees</artist>
-      <genre>Disco</genre>
-      <link>
-        https://www.amazon.com/Night-Fever-Saturday-Soundtrack/dp/B01MRZTXAE
-      </link>
-      <releaseyear>1978</releaseyear>
-    </item>
-    <item>
-      <songid>GBAYE1500979</songid>
-      <songtitle>Hymn for the Weekend</songtitle>
-      <artist>Coldplay</artist>
-      <genre>Pop/Rock</genre>
-      <link>
-        https://www.amazon.com/Hymn-For-The-Weekend/dp/B017JGRMN0
-      </link>
-      <releaseyear>2016</releaseyear>
-    </item>
-    <item>
-      <songid>USUM71514125</songid>
-      <songtitle>Dystopia</songtitle>
-      <artist>Megadeth</artist>
-      <genre>Metal</genre>
-      <link>https://www.amazon.com/dp/B015U2LP1K</link>
-      <releaseyear>2016</releaseyear>
-    </item>
-    <item>
-      <songid>USWB10001847</songid>
-      <songtitle>Whispers of Summer</songtitle>
-      <artist>Eliza Carthy</artist>
-      <genre>Folk</genre>
-      <link>https://www.amazon.com/dp/B0016NYN0S</link>
-      <releaseyear>2000</releaseyear>
-    </item>
-    <item>
-      <songid>USAT29902236</songid>
-      <songtitle>I Say a Little Prayer</songtitle>
-      <artist>Aretha Franklin</artist>
-      <genre>Soul</genre>
-      <link>
-        https://www.amazon.com/I-Say-a-Little-Prayer/dp/B001BZD6KO
-      </link>
-      <releaseyear>1968</releaseyear>
-    </item>
+    <database name="unn_w18020302">
+      <table name="saved_songs">
+        <item>
+          <songid>US2HK1448715</songid>
+          <songtitle>Take Me To The River</songtitle>
+          <artist>Al Green</artist>
+          <genre>Soul</genre>
+          <link>
+            https://www.amazon.com/Take-Me-to-the-River/dp/B01MSN0NGL
+          </link>
+          <releaseyear>1974</releaseyear>
+        </item>
+        <item>
+          <songid>GBAAM8300001</songid>
+          <songtitle>Every Breath You Take</songtitle>
+          <artist>The Police</artist>
+          <genre>Pop/Rock</genre>
+          <link>
+            https://www.amazon.com/Every-Breath-You-Take-Police/dp/B000008JI6
+          </link>
+          <releaseyear>1983</releaseyear>
+        </item>
+        <item>
+          <songid>GBBBN7902002</songid>
+          <songtitle>London Calling</songtitle>
+          <artist>The Clash</artist>
+          <genre>Post-punk</genre>
+          <link>
+            https://www.amazon.com/London-Calling-Remastered/dp/B00EQRJNTM
+          </link>
+          <releaseyear>1979</releaseyear>
+        </item>
+        <item>
+          <songid>USUM71413733</songid>
+          <songtitle>Hold Back the River</songtitle>
+          <artist>James Bay</artist>
+          <genre>Indie rock</genre>
+          <link>
+            https://www.amazon.com/Hold-Back-The-River/dp/B00QN2CL9C
+          </link>
+          <releaseyear>2014</releaseyear>
+        </item>
+        <item>
+          <songid>USQX91300809</songid>
+          <songtitle>Get Lucky</songtitle>
+          <artist>Daft Punk featuring Pharrell Williams</artist>
+          <genre>Disco</genre>
+          <link>https://www.amazon.com/Get-Lucky/dp/B00CRMX53S</link>
+          <releaseyear>2012</releaseyear>
+        </item>
+        <item>
+          <songid>GBF089190013</songid>
+          <songtitle>Enter Sandman</songtitle>
+          <artist>Metallica</artist>
+          <genre>Metal</genre>
+          <link>
+            https://www.amazon.com/Enter-Sandman-Metallica/dp/B00000E0TE
+          </link>
+          <releaseyear>1991</releaseyear>
+        </item>
+        <item>
+          <songid>DETT11504159</songid>
+          <songtitle>Times Like These</songtitle>
+          <artist>Foo Fighters</artist>
+          <genre>Rock</genre>
+          <link>
+            https://www.amazon.com/Times-Like-These/dp/B002V5FVJ2
+          </link>
+          <releaseyear>2003</releaseyear>
+        </item>
+        <item>
+          <songid>USRH10903932</songid>
+          <songtitle>Night Fever</songtitle>
+          <artist>Bee Gees</artist>
+          <genre>Disco</genre>
+          <link>
+            https://www.amazon.com/Night-Fever-Saturday-Soundtrack/dp/B01MRZTXAE
+          </link>
+          <releaseyear>1978</releaseyear>
+        </item>
+        <item>
+          <songid>GBAYE1500979</songid>
+          <songtitle>Hymn for the Weekend</songtitle>
+          <artist>Coldplay</artist>
+          <genre>Pop/Rock</genre>
+          <link>
+            https://www.amazon.com/Hymn-For-The-Weekend/dp/B017JGRMN0
+          </link>
+          <releaseyear>2016</releaseyear>
+        </item>
+        <item>
+          <songid>USUM71514125</songid>
+          <songtitle>Dystopia</songtitle>
+          <artist>Megadeth</artist>
+          <genre>Metal</genre>
+          <link>https://www.amazon.com/dp/B015U2LP1K</link>
+          <releaseyear>2016</releaseyear>
+        </item>
+        <item>
+          <songid>USWB10001847</songid>
+          <songtitle>Whispers of Summer</songtitle>
+          <artist>Eliza Carthy</artist>
+          <genre>Folk</genre>
+          <link>https://www.amazon.com/dp/B0016NYN0S</link>
+          <releaseyear>2000</releaseyear>
+        </item>
+        <item>
+          <songid>USAT29902236</songid>
+          <songtitle>I Say a Little Prayer</songtitle>
+          <artist>Aretha Franklin</artist>
+          <genre>Soul</genre>
+          <link>
+            https://www.amazon.com/I-Say-a-Little-Prayer/dp/B001BZD6KO
+          </link>
+          <releaseyear>1968</releaseyear>
+        </item>
+      </table>
+    </database>
   </channel>
 </rss>
