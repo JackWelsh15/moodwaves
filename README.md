@@ -1,14 +1,14 @@
 # 'MoodWaves' :notes:
-system for clients to be able to import, save, retrieve and export information from music playlists containing individual songs. The final system in production will ultimately allow multiple playlists to be imported.
+System for clients to be able to import, save, retrieve and export information from music playlists containing individual songs. The final system in production will ultimately allow multiple playlists to be imported.
 
 ## Use Case :memo:
 User will access the website and will land on the home page (index.html) they will see a pre-made playlist containing links to amazon.com should they wish to purchase songs. If the user wants to save individual songs to create their own playlist, they will be prompted with a 'login' screen. After account registration, a link on the navbar titled 'My Playlist' will appear and any songs saved from the main page will appear in the 'My Playlist' page. The user will be able to add/delete songs from this page.
 
-# Implementation 🔨
+## Implementation 🔨
 - Using HTML, PHP, XML, PHPMYADMIN & MySQL.
 - Framework vue.js, bulma.io
 
-### To-Do List :pencil2:
+## To-Do List :pencil2:
 - [ ] Create Login/Logout
 - [ ] Add Session
 - [ ] Display Home page with XML Playlist displayed
