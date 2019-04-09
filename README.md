@@ -1,4 +1,4 @@
-# 'MoodWaves' :notes:
+# MoodWaves :notes:
 System for clients to be able to import, save, retrieve and export information from music playlists containing individual songs. The final system in production will ultimately allow multiple playlists to be imported.
 
 ## Use Case :memo:
