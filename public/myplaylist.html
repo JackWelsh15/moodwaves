@@ -11,23 +11,28 @@
   <!-- Bulma Version 0.7.4-->
   <link rel="stylesheet" href="https://unpkg.com/bulma@0.7.4/css/bulma.min.css" />
   <link rel="stylesheet" type="text/css " href="css/style.css">
+
+
+  </script>
 </head>
+
 <body>
-  <section class="hero is-info is-fullheight">
+  <section class="hero is-dark is-fullheight">
     <div class="hero-head">
-      <nav class="navbar">
+      <nav class="navbar is-transparent">
         <div class="container">
           <div class="navbar-brand">
-            <a class="navbar-item" href="../">
+            <a class="navbar-item" href="index.html">
               <h1 class="is-size-3"><i class="fa fa-headphones"> | </i><span class="has-text-weight-bold"> MoodWaves</span></h1>
             </a>
-            <a role="button" class="navbar-burger is-active" aria-label="menu" aria-expanded="false">
-      <span aria-hidden="true"></span>
-      <span aria-hidden="true"></span>
-      <span aria-hidden="true"></span>
-    </a>
+
+            <span class="navbar-burger burger" data-target="navMenu">
+              <span></span>
+              <span></span>
+              <span></span>
+            </span>
           </div>
-          <div id="navbarMenu" class="navbar-menu">
+          <div id="navMenu" class="navbar-menu">
             <div class="navbar-end">
               <span class="navbar-item">
                 <a class="button is-white is-outlined" href="index.html">
@@ -37,6 +42,7 @@
                   <span>Home</span>
                 </a>
               </span>
+
               <span class="navbar-item">
                 <a class="button is-white is-outlined" href="myplaylist.html">
                   <span class="icon">
@@ -46,25 +52,67 @@
                 </a>
               </span>
               <span class="navbar-item">
-                <a class="button is-white is-outlined" href="#">
+                <a class="button is-white is-outlined" data-target="#sign-in-modal" id="sign-in" aria-haspopup="true">
                   <span class="icon">
                     <i class="fa fa-user"></i>
                   </span>
                   <span>Sign In</span>
                 </a>
-              </span>
-              <span class="navbar-item">
-                <a class="button is-white is-outlined" href="https://github.com/JackWelsh15/moodwaves">
-                  <span class="icon">
-                    <i class="fa fa-github"></i>
-                  </span>
-                  <span>View Source</span>
-                </a>
-              </span>
+
+                <div id="sign-in-modal" class="modal">
+                  <div class="modal-background"></div>
+                  <div class="modal-content">
+                    <div class="modal-card">
+                      <header class="modal-card-head">
+                        <p class="modal-card-title is-size-3">Sign In</p>
+                      </header>
+                      <section class="modal-card-body">
+                        <div class="field">
+                          <p class="control has-icons-left has-icons-right">
+                            <input class="input" type="email" placeholder="Email">
+                            <span class="icon is-small is-left">
+                              <i class="fa fa-envelope"></i>
+                            </span>
+                            <span class="icon is-small is-right">
+                              <i class="fa fa-check"></i>
+                            </span>
+                          </p>
+                        </div>
+                        <div class="field">
+                          <p class="control has-icons-left">
+                            <input class="input" type="password" placeholder="Password">
+                            <span class="icon is-small is-left">
+                              <i class="fa fa-lock"></i>
+                            </span>
+                          </p>
+                        </div>
+                      </section>
+                      <footer class="modal-card-foot">
+                        <button class="button is-success">Login</button>
+                        <button class="button" id="cancel">Cancel</button>
+                      </footer>
+                    </div>
+                  </div>
+                  <button id="image-modal-close" class="modal-close is-large"></button>
+                </div>
+                <br>
+
             </div>
+            </span>
+
+            <span class="navbar-item">
+              <a class="button is-white is-outlined" href="https://github.com/JackWelsh15/moodwaves">
+                <span class="icon">
+                  <i class="fa fa-github"></i>
+                </span>
+                <span>View Source</span>
+              </a>
+            </span>
           </div>
         </div>
-      </nav>
+    </div>
+    </div>
+    </nav>
     </div>
 
     <div class="hero-body">
@@ -73,18 +121,54 @@
           <h1 class="title">
             My Playlist
           </h1>
-<div class="box" id="saved_songs">
-  <div class="column is-info is-centered is-8 is-offset-2">
+          <div class="box" id="saved_songs">
+            <div class="column is-info is-centered is-8 is-offset-2">
 
-  </div>
+            </div>
 
-</div>
+          </div>
+        </div>
       </div>
     </div>
-    </div>
+
 
   </section>
-  <!-- <script async type="text/javascript" src="../js/bulma.js"></script> -->
+  <footer class="footer">
+    <div class="content has-text-centered has-text-white">
+      <p>
+        <strong>MoodWaves</strong> by <a href="https://jwelsh.me" style="color: #404040">Jack Welsh</a>. The source code is licensed
+        <a href="http://opensource.org/licenses/mit-license.php" style="color: #404040">MIT</a>, and can be found <a href="github.com/JackWelsh15/moodwaves" style="color: #404040">here.</a>
+      </p>
+    </div>
+  </footer>
+
+  <script type="text/javascript">
+    (function() {
+      var burger = document.querySelector('.burger');
+      var nav = document.querySelector('#' + burger.dataset.target);
+      burger.addEventListener('click', function() {
+        burger.classList.toggle('is-active');
+        nav.classList.toggle('is-active');
+      });
+    })();
+  </script>
+  <script>
+    var btn = document.querySelector('#sign-in');
+    var modalDlg = document.querySelector('#sign-in-modal');
+    var imageModalCloseBtn = document.querySelector('#image-modal-close');
+    var cancelBtn = document.querySelector('#cancel');
+    btn.addEventListener('click', function() {
+      modalDlg.classList.add('is-active');
+    });
+
+    imageModalCloseBtn.addEventListener('click', function() {
+      modalDlg.classList.remove('is-active');
+    });
+
+    cancelBtn.addEventListener('click', function() {
+      modalDlg.classList.remove('is-active');
+    });
+  </script>
 </body>
 
 </html>
