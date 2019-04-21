@@ -1,12 +1,5 @@
-<rss version="0.91">
-  <channel>
-    <title>Music Playlist Sharing</title>
-    <description>
-      Share music playlists - import from other applications and export them
-    </description>
-    <language>en-us</language>
-    <database name="unn_w18020302">
-      <table name="saved_songs">
+<?xml version="1.0" ?>
+    <items>
         <item>
           <songid>US2HK1448715</songid>
           <songtitle>Take Me To The River</songtitle>
@@ -121,7 +114,4 @@
           </link>
           <releaseyear>1968</releaseyear>
         </item>
-      </table>
-    </database>
-  </channel>
-</rss>
+    </items>

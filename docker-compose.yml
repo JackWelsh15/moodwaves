@@ -1,0 +1,28 @@
+version: '2'
+services:
+  web:
+    build: .
+    depends_on:
+      - mysql
+    ports:
+      - 8888:80
+    volumes:
+      - "./backend:/var/www/html/backend"
+      - "./public:/var/www/html/public"
+    links:
+      - "mysql"
+  mysql:
+    image: mysql:5.7
+    command: --explicit_defaults_for_timestamp
+    ports:
+      - 3306:3306
+    environment:
+      MYSQL_ROOT_PASSWORD: secret
+      MYSQL_DATABASE: moodwaves
+    volumes:
+      - mysql_database:/var/lib/mysql
+      - "./mysql_init:/docker-entrypoint-initdb.d"
+    restart: always
+
+volumes:
+  mysql_database:

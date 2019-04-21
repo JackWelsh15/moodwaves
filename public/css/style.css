@@ -1,10 +1,10 @@
 html, body {
-  font-family: 'Open Sans', serif;
+  font-family: 'Raleway', sans-serif;
 }
 .hero.is-dark {
   background: linear-gradient(
-      rgba(0, 0, 0, 0.6),
-      rgba(0, 0, 0, 0.6)
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
     ), url('https://source.unsplash.com/collection/415470')no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -16,14 +16,20 @@ html, body {
   box-shadow: none;
 }
 .hero .subtitle {
-  padding: 5rem 0;
+  padding: 3rem 0;
   line-height: 1.5;
 }
 
 .box {
   background-color: #7D7D7D;
   padding-top: 10px;
+  padding-bottom: 10px;
   text-align: left;
+}
+
+.title {
+  padding: 3rem;
+  font-family: 'Raleway', sans-serif !important;
 }
 
 #saved_songs {
@@ -33,12 +39,13 @@ html, body {
 .footer {
   padding: 1rem 1rem 1rem;
   background-color: #7D7D7D;
-  opacity: 0.9
+  opacity: 0.9;
   color: white;
 }
 
 .subtitle {
-  padding-bottom: -40px;
+  padding-bottom: 0px;
+  padding-top: 10px;
 }
 
 .search-label {
@@ -48,7 +55,35 @@ html, body {
 .modal-card-title {
   text-align: center;
 }
-.modal-card-body,
+
 .modal-card-head,
-.modal-card-foot {
+.modal-card-body{
+  background-color: #7D7D7D;
 }
+.modal-card-head>p {
+  color: white !important;
+}
+
+.modal-card-foot {
+  background-color: #7D7D7D;
+}
+.modal-card-foot>p {
+  color: white !important;
+}
+.hero-body{
+  font-family: 'Rubik', sans-serif;
+  padding-top: 5px;
+}
+
+thead {
+  background: #7D7D7D !important;
+  border-radius: 1em !important;
+}
+
+th {
+  color: white !important;
+}
+table {
+  border-radius: 1em !important;
+}
+
