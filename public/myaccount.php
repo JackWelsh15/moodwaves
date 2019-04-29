@@ -19,8 +19,8 @@ include('../backend/functions.php');
 
 </head>
 <body>
-    <section class="hero is-dark is-fullheight">
-        <div class="hero-head">
+<section class="hero is-dark is-fullheight">
+    <div class="hero-head">
         <nav class="navbar is-transparent">
             <div class="container">
                 <div class="navbar-brand">
@@ -45,9 +45,9 @@ include('../backend/functions.php');
                 </a>
               </span>
                         <?php
-                if (isset($_SESSION['name'])){
-                ?>
-                        <span class="navbar-item">
+                        if (isset($_SESSION['name'])){
+                            ?>
+                            <span class="navbar-item">
                 <a class="button is-white is-outlined" href="myplaylist.php">
                   <span class="icon">
                     <i class="fa fa-headphones"></i>
@@ -55,7 +55,7 @@ include('../backend/functions.php');
                   <span>My Playlist</span>
                 </a>
               </span>
-                    <span class="navbar-item">
+                            <span class="navbar-item">
                 <a class="button is-white is-outlined" href="myaccount.php">
                   <span class="icon">
                     <i class="fa fa-user"></i>
@@ -63,7 +63,7 @@ include('../backend/functions.php');
                     <span><?php echo $_SESSION['name'] ?></span>
                 </a>
               </span>
-                        <span class="navbar-item">
+                            <span class="navbar-item">
                 <a class="button is-white is-outlined" href="../backend/logout.php">
                   <span class="icon">
                     <i class="fa fa-sign-out"></i>
@@ -72,7 +72,7 @@ include('../backend/functions.php');
                 </a>
               </span>
                         <?php }elseif (!isset($_SESSION['name'])) { ?>
-                        <span class="navbar-item">
+                            <span class="navbar-item">
                 <a class="button is-white is-outlined" data-target="#sign-in-modal" id="sign-in" aria-haspopup="true">
                   <span class="icon">
                     <i class="fa fa-user"></i>
@@ -80,8 +80,8 @@ include('../backend/functions.php');
                   <span>Sign In</span>
                 </a>
               </span>
-                        <?php
-                } ;?>
+                            <?php
+                        } ;?>
                     </div>
                 </div>
             </div>
@@ -125,26 +125,22 @@ include('../backend/functions.php');
         </div>
         <button id="image-modal-close" class="modal-close is-large"></button>
     </div>
-    <div class="hero-body">
-        <div class="container has-text-centered">
-            <div class="column is-centered is-8 is-offset-2">
-                <h1 class="title is-size-2">
-                    Hello, <?php echo $_SESSION['name']; ?>.
-                </h1>
-                <p class="is-size-5">Navigate to <a href="index.php"><strong>Home</strong></a> to add songs to your playlist.</p>
-            </div>
-            <div class="column is-centered is-8 is-offset-2">
-                <h1 class="title">
-                    Your Saved Playlist
-                </h1>
-                <div class="box" id="saved_songs">
-                        <?php
-                        echo getSavedSongs();?>
-                </div>
+        <div class="hero-body">
+            <div class="container has-text-centered">
+                <h1 class="title is-size-2">Account Details</h1>
+                <div class="level is-size-4 is-4">
+                    <div class="level-item">
+                         <div class="box has-text-white">
+                            <?php if(isset($_SESSION)); {?>
+                                <h2><strong>Name:</strong> <?php echo $_SESSION['name'];?></h2>
+                                <h2><strong>Email: </strong><?php echo $_SESSION['email'];?></h2>
+                                <h2><strong>Last Login: </strong><?php echo $_SESSION['lastlogin'];?></h2>
+                            <?php }?>
+                        </div>
+                    </div>
+                 </div>
             </div>
         </div>
-    </div>
-    </section>
 <footer class="footer">
     <div class="content has-text-centered has-text-white">
         <p>
@@ -166,25 +162,25 @@ include('../backend/functions.php');
         });
     })();
 </script>
-    <?php if(!isset($_SESSION['memberID'])){?>
+<?php if(!isset($_SESSION['memberID'])){?>
     <script>
-    let btn = document.querySelector('#sign-in');
-    let modalDlg = document.querySelector('#sign-in-modal');
-    let imageModalCloseBtn = document.querySelector('#image-modal-close');
-    let cancelBtn = document.querySelector('#cancel');
-    btn.addEventListener('click', function () {
-        modalDlg.classList.add('is-active');
-    });
+        let btn = document.querySelector('#sign-in');
+        let modalDlg = document.querySelector('#sign-in-modal');
+        let imageModalCloseBtn = document.querySelector('#image-modal-close');
+        let cancelBtn = document.querySelector('#cancel');
+        btn.addEventListener('click', function () {
+            modalDlg.classList.add('is-active');
+        });
 
-    imageModalCloseBtn.addEventListener('click', function () {
-        modalDlg.classList.remove('is-active');
-    });
+        imageModalCloseBtn.addEventListener('click', function () {
+            modalDlg.classList.remove('is-active');
+        });
 
-    cancelBtn.addEventListener('click', function () {
-        modalDlg.classList.remove('is-active');
-    });
-</script>
-    <?php  } else{}; ?>
+        cancelBtn.addEventListener('click', function () {
+            modalDlg.classList.remove('is-active');
+        });
+    </script>
+<?php  } else{}; ?>
 </body>
 
 </html>
