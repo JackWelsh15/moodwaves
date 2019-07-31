@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<savedSongss>
+	<savedSongs>
+		<songID>DETT11504159</songID>
+		<memberID>2</memberID>
+		<songtitle>Times Like These</songtitle>
+		<artist>Foo Fighters</artist>
+		<link>
+            https://www.amazon.com/Times-Like-These/dp/B002V5FVJ2
+          </link>
+		<genre>Rock</genre>
+		<releaseYear>2003</releaseYear>
+		<dateSaved>2019-04-29 00:35:07</dateSaved>
+	</savedSongs>
+	<savedSongs>
+		<songID>GBAAM8300001</songID>
+		<memberID>2</memberID>
+		<songtitle>Every Breath You Take</songtitle>
+		<artist>The Police</artist>
+		<link>
+            https://www.amazon.com/Every-Breath-You-Take-Police/dp/B000008JI6
+          </link>
+		<genre>Pop/Rock</genre>
+		<releaseYear>1983</releaseYear>
+		<dateSaved>2019-05-09 11:52:19</dateSaved>
+	</savedSongs>
+	<savedSongs>
+		<songID>GBAYE1500979</songID>
+		<memberID>2</memberID>
+		<songtitle>Hymn for the Weekend</songtitle>
+		<artist>Coldplay</artist>
+		<link>
+            https://www.amazon.com/Hymn-For-The-Weekend/dp/B017JGRMN0
+          </link>
+		<genre>Pop/Rock</genre>
+		<releaseYear>2016</releaseYear>
+		<dateSaved>2019-04-29 18:10:15</dateSaved>
+	</savedSongs>
+	<savedSongs>
+		<songID>USQX91300809</songID>
+		<memberID>1</memberID>
+		<songtitle>Get Lucky</songtitle>
+		<artist>Daft Punk featuring Pharrell Williams</artist>
+		<link>https://www.amazon.com/Get-Lucky/dp/B00CRMX53S</link>
+		<genre>Disco</genre>
+		<releaseYear>2012</releaseYear>
+		<dateSaved>2019-04-28 23:48:11</dateSaved>
+	</savedSongs>
+	<savedSongs>
+		<songID>USUM71413733</songID>
+		<memberID>2</memberID>
+		<songtitle>Hold Back the River</songtitle>
+		<artist>James Bay</artist>
+		<link>
+            https://www.amazon.com/Hold-Back-The-River/dp/B00QN2CL9C
+          </link>
+		<genre>Indie rock</genre>
+		<releaseYear>2014</releaseYear>
+		<dateSaved>2019-04-29 00:52:35</dateSaved>
+	</savedSongs>
+	<savedSongs>
+		<songID>USWB10001847</songID>
+		<memberID>1</memberID>
+		<songtitle>Whispers of Summer</songtitle>
+		<artist>Eliza Carthy</artist>
+		<link>https://www.amazon.com/dp/B0016NYN0S</link>
+		<genre>Folk</genre>
+		<releaseYear>2000</releaseYear>
+		<dateSaved>2019-04-28 23:48:11</dateSaved>
+	</savedSongs>
+</savedSongss>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<savedSongs>
+	<savedSongs>
+		<songID>GBAYE1500979</songID>
+		<memberID>2</memberID>
+		<songtitle>Hymn for the Weekend</songtitle>
+		<artist>Coldplay</artist>
+		<link>
+            https://www.amazon.com/Hymn-For-The-Weekend/dp/B017JGRMN0
+          </link>
+		<genre>Pop/Rock</genre>
+		<releaseYear>2016</releaseYear>
+		<dateSaved>2019-05-10 17:00:16</dateSaved>
+	</savedSongs>
+	<savedSongs>
+		<songID>USUM71413733</songID>
+		<memberID>2</memberID>
+		<songtitle>Hold Back the River</songtitle>
+		<artist>James Bay</artist>
+		<link>
+            https://www.amazon.com/Hold-Back-The-River/dp/B00QN2CL9C
+          </link>
+		<genre>Indie rock</genre>
+		<releaseYear>2014</releaseYear>
+		<dateSaved>2019-05-10 17:00:15</dateSaved>
+	</savedSongs>
+</savedSongs>

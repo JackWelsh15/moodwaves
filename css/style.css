@@ -1,0 +1,83 @@
+html, body {
+  font-family: 'Raleway', sans-serif;
+}
+.hero.is-dark {
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.75),
+      rgba(0, 0, 0, 0.75)
+    ), url('https://source.unsplash.com/collection/415470')no-repeat center center fixed;
+  /*background from collection of images*/
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.hero .nav, .hero.is-success .nav {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.hero .subtitle {
+  padding: 3rem 0;
+  line-height: 1.5;
+}
+
+.box {
+  background-color: #7D7D7D;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: left;
+}
+
+.title {
+  padding: 3rem;
+  font-family: 'Raleway', sans-serif !important;
+}
+
+#saved_songs {
+  background-color: #7D7D7D !important;
+}
+
+.footer {
+  padding: 1rem 1rem 1rem;
+  background-color: #7D7D7D;
+  opacity: 0.9;
+  color: white;
+}
+
+.subtitle {
+  padding-bottom: 0px;
+  padding-top: 10px;
+}
+
+.search-label {
+  color: white
+}
+
+.modal-card-title {
+  text-align: center;
+}
+.hero-body{
+  font-family: 'Rubik', sans-serif;
+  padding-top: 5px;
+}
+
+thead {
+  background: #7D7D7D !important;
+  border-radius: 1em !important;
+}
+
+th {
+  color: white !important;
+}
+table {
+  border-radius: 1em !important;
+}
+
+input[type=checkbox] {
+  transform: scale(2) !important;
+}
+
+.is-active {
+  background-color: #7D7D7D !important;
+  color: white !important;
+}
